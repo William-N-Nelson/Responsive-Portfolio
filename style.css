@@ -1,6 +1,78 @@
+* {
+  font-family: GallaeciaPixelei;
+}
+
 body {
     background-image: url("./dawnPixel.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
   }
+
+.navbar {
+  background:rgba(0, 0, 0, 0.50);
+  padding-left: 10px;
+}
+
+button{
+  visibility: visible;
+  background:rgba(0, 0, 0, 0.1)
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.50);
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:rgba(255, 255, 255, 1.0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.brightness img:hover {
+  opacity: .5;
+}
+
+@media screen and (min-width: 769px) {
+  img.img-fluid {width: 150px;}
+}
+
+@media screen and (max-width: 768px) {
+  img.img-fluid {width: 50px;}
+}
+
+.navbar-text {
+  position:static;
+  color:rgba(255, 255, 255, 1.0);
+}
+
+@media screen and (min-width: 769px) {
+  div.navbar-text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.navbar-text {
+    font-size: 15px;
+  }
+}
