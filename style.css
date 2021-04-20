@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'gallaeciapixeleimedium';
-  src: url('https://william-n-nelson.github.io/Responsive-Portfolio/css/fonts/gallaeciapixeleira-webfont.woff2') format('woff2'),
-       url('https://william-n-nelson.github.io/Responsive-Portfolio/css/fonts/gallaeciapixeleira-webfont.woff') format('woff');
+  src: url("./Responsive-Portfolio/gallaeciapixeleira-webfont.woff2") format("woff2"),
+       url("./Responsive-Portfolio/gallaeciapixeleira-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
