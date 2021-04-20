@@ -2,11 +2,19 @@
 
 @font-face {
   font-family: 'gallaeciapixeleimedium';
-  src: url('gallaeciapixeleira-webfont.woff2') format('woff2'),
-       url('gallaeciapixeleira-webfont.woff') format('woff');
+  src: url('https://william-n-nelson.github.io/Responsive-Portfolio/css/fonts/gallaeciapixeleira-webfont.woff2') format('woff2'),
+       url('https://william-n-nelson.github.io/Responsive-Portfolio/css/fonts/gallaeciapixeleira-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
 }
 
 body {
