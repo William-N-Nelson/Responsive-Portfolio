@@ -71,13 +71,10 @@ div.navbar-text {
   display: block;
 }
 
-.dropdown:hover .dropdown-content a.wack {
+.dropdown:hover .dropdown-content a {
   color:white;
 }
 
-.dropdown:active .dropdown-content a.wack {
-  color:orange
-}
 
 .brightness img:hover {
   opacity: .5;
