@@ -95,3 +95,12 @@ div.navbar-text {
   img.img-fluid {width: 50px;}
 }
 
+.container-fluid .body-text {
+  background:rgba(0, 0, 0, 0.50);
+  margin-top: 100px
+}
+
+.container-fluid .body-text{
+  text-indent: 50px;
+  color:rgba(255, 255, 255, 1.0);
+}
