@@ -120,3 +120,7 @@ body {
   padding: 10px;
   color:rgba(255, 255, 255, 1.0);
 }
+
+.body-text img.float-right {
+  float: right;
+}
